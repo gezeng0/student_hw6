@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
 	video.loop = false;
 	console.log("Autoplay is " + video.autoplay)
 	console.log("Loop is " + video.loop)
-});
+
 
 document.querySelector("#play").addEventListener("click", function () {
 	console.log("Play Video")
@@ -60,4 +60,4 @@ document.querySelector("#vintage").addEventListener("click", function() {
 document.querySelector("#orig").addEventListener("click", function() {
     video.classList.remove("oldSchool");
 });
-
+});
